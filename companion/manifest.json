@@ -1,6 +1,6 @@
 {
-	"id": "coda-linus-amplifiers",
-	"name": "coda-linus-amplifiers",
+	"id": "coda-linus-amps",
+	"name": "coda-linus-amps",
 	"shortname": "Linus",
 	"description": "Control Coda amplifiers other than the 6.4",
 	"version": "1.0.0",
@@ -9,7 +9,7 @@
 	"bugs": "https://github.com/bitfocus/companion-module-coda-linus-amps/issues",
 	"maintainers": [
 		{
-			"name": "Bradley Campion"
+			"name": "Brad Campion"
 		}
 	],
 	"legacyIds": [],
