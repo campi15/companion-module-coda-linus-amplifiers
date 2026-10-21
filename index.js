@@ -1,4 +1,4 @@
-// Coda Linus
+// Coda Linus Amps
 
 import { InstanceBase, InstanceStatus, Regex, runEntrypoint, UDPHelper } from '@companion-module/base'
 import { updateActions } from './actions.js'
@@ -24,7 +24,7 @@ class CodaLinus extends InstanceBase {
 				id: 'info',
 				width: 12,
 				label: 'Information',
-				value: 'This module will allow you to control CODA Audio amplifiers using the LINUS 6.4 protocol.',
+				value: 'This module will allow you to control CODA Audio amplifiers using the LINUS 3rd Party Control protocol.',
 			},
 			{
 				type: 'textinput',
@@ -38,7 +38,7 @@ class CodaLinus extends InstanceBase {
 				id: 'port',
 				label: 'Device Port',
 				width: 6,
-				default: '6791',
+				default: '3000',
 				regex: Regex.PORT,
 			},
 			{
@@ -46,7 +46,7 @@ class CodaLinus extends InstanceBase {
 				id: 'polling',
 				label: 'Enable device polling',
 				width: 6,
-				default: false,
+				default: true,
 			},
 		]
 	}

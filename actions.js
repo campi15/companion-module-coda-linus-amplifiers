@@ -1,23 +1,29 @@
 export function updateActions() {
 	let actions = {}
 
-	actions['standby'] = {
-		name: 'Standby',
+	actions['power'] = {
+		name: 'Power',
 		options: [
 			{
-				id: 'standbyState',
+				id: 'powerState',
 				type: 'dropdown',
-				label: 'Set Standby State',
+				label: 'Set Power State',
 				choices: [
-					{ id: true, label: 'Enable' },
-					{ id: false, label: 'Disable' },
+					{ id: true, label: 'Power On' },
+					{ id: false, label: 'Power Off' },
 				],
 				default: true,
-			},
+			}
+			{
+				id: 'powerOnDelay',
+				type: 'textinput',
+				label: 'Power On Delay (seconds)',
+				default: '0',
+			}
 		],
 		callback: async ({ options }) => {
-			// Message Format: {"command":"set_standby", "enable":true/false (Boolean)}
-			let cmd = '{"command":"set_standby", "enable":' + options.standbyState + '}'
+			// Message Format: *SET_POWER=X,Y
+			let cmd = '*SET_POWER=' + (options.powerState ? '1' : '0') + ',' + options.powerOnDelay
 			await this.sendCommand(cmd)
 		},
 	}

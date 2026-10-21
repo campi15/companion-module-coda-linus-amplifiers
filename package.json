@@ -1,6 +1,6 @@
 {
 	"name": "coda-linus",
-	"version": "1.1.0",
+	"version": "1.0.0",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-coda-linus.git"
+		"url": "git+https://github.com/bitfocus/companion-module-coda-linus-amps.git"
 	},
 	"license": "MIT",
 	"dependencies": {

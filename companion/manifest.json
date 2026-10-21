@@ -1,15 +1,15 @@
 {
-	"id": "coda-linus",
-	"name": "coda-linus",
+	"id": "coda-linus-amplifiers",
+	"name": "coda-linus-amplifiers",
 	"shortname": "Linus",
-	"description": "Control Coda amplifiers",
-	"version": "0.0.0",
+	"description": "Control Coda amplifiers other than the 6.4",
+	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-coda-linus.git",
-	"bugs": "https://github.com/bitfocus/companion-module-coda-linus/issues",
+	"repository": "git+https://github.com/campi15/companion-module-coda-linus-amps.git",
+	"bugs": "https://github.com/bitfocus/companion-module-coda-linus-amps/issues",
 	"maintainers": [
 		{
-			"name": "Peter Daniel"
+			"name": "Bradley Campion"
 		}
 	],
 	"legacyIds": [],
@@ -20,6 +20,6 @@
 		"entrypoint": "../index.js"
 	},
 	"manufacturer": "CODA Audio",
-	"products": ["LINUS6.4"],
-	"keywords": ["Amplifier", "Loudspeaker", "DSP Amplifier", "Loudspeaker Management"]
+	"products": ["LINUS amplifiers"],
+	"keywords": ["Amps", "Amplifier", "Loudspeaker", "DSP Amplifier", "Loudspeaker Management"]
 }
