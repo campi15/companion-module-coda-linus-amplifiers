@@ -1,8 +1,8 @@
 export function updateActions() {
 	let actions = {}
 
-	actions['power'] = {
-		name: 'Power',
+	actions['powerOn'] = {
+		name: 'Power On/Off',
 		options: [
 			{
 				id: 'powerState',
