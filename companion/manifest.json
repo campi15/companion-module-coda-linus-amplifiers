@@ -1,12 +1,12 @@
 {
-	"id": "coda-linus-amps",
-	"name": "coda-linus-amps",
+	"id": "coda-linus-amplifiers",
+	"name": "coda-linus-amplifiers",
 	"shortname": "Linus",
 	"description": "Control Coda amplifiers other than the 6.4",
 	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/campi15/companion-module-coda-linus-amps.git",
-	"bugs": "https://github.com/bitfocus/companion-module-coda-linus-amps/issues",
+	"repository": "git+https://github.com/campi15/companion-module-coda-linus-amplifiers.git",
+	"bugs": "https://github.com/bitfocus/companion-module-coda-linus-amplifiers/issues",
 	"maintainers": [
 		{
 			"name": "Brad Campion"

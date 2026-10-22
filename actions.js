@@ -13,7 +13,7 @@ export function updateActions() {
 					{ id: false, label: 'Power Off' },
 				],
 				default: true,
-			}
+			},
 			{
 				id: 'powerOnDelay',
 				type: 'textinput',

@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-coda-linus-amps.git"
+		"url": "git+https://github.com/bitfocus/companion-module-coda-linus-amplifiers.git"
 	},
 	"license": "MIT",
 	"dependencies": {
