@@ -674,9 +674,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coda-linus@workspace:.":
+"coda-linus-amplifiers@workspace:.":
   version: 0.0.0-use.local
-  resolution: "coda-linus@workspace:."
+  resolution: "coda-linus-amplifiers@workspace:."
   dependencies:
     "@companion-module/base": "npm:~1.12.1"
     "@companion-module/tools": "npm:^2.8.0"
