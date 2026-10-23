@@ -3,12 +3,12 @@ import { combineRgb } from '@companion-module/base'
 export function updatePresets() {
 	let presets = {}
 
-	presets['standby'] = {
+	presets['powerOn'] = {
 		type: 'button',
 		category: 'Power',
-		name: 'Standby',
+		name: 'Power On',
 		style: {
-			text: 'Standby',
+			text: 'Power On',
 			size: '14',
 			bgcolor: combineRgb(0, 0, 0),
 			color: combineRgb(255, 255, 255),
@@ -17,9 +17,10 @@ export function updatePresets() {
 			{
 				down: [
 					{
-						actionId: 'standby',
+						actionId: 'powerOn',
 						options: {
-							standbyState: true,
+							powerState: true,
+							powerOnDelay: '0',
 						},
 					},
 				],
@@ -28,9 +29,10 @@ export function updatePresets() {
 			{
 				down: [
 					{
-						actionId: 'standby',
+						actionId: 'powerOn',
 						options: {
-							standbyState: false,
+							powerState: false,
+							powerOnDelay: '0',
 						},
 					},
 				],
