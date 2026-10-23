@@ -1,7 +1,11 @@
-# CODA LINUSAMPS
-This module will control the Coda Audio LINUS amplifiers.
+# CODA LINUS AMPLIFIERS
+This module will control the Coda Audio LINUS amplifiers (except for the LINUS6.4.)
 
-[https://codaaudio.com/electronics/linus6-4/](https://codaaudio.com/electronics/linus6-4/)
+[https://codaaudio.com/range/linus-dsp-amplifiers/](https://codaaudio.com/range/linus-dsp-amplifiers/)
+
+This module used the 3rd party control protocol outlined here: 
+
+https://www.codaaudio.com/docs/manuals/linus-control/third_party_control.html
 
 ## Actions
 * Standby on/off
