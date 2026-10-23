@@ -1,5 +1,3 @@
-# companion-module-coda-linus-amplifiers
-
 ## CODA Audio Linus DSP Amplifier Companion Module
 
 This Module comtrols Coda Audio DSP Amplifiers via UDP. 
