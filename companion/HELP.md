@@ -41,7 +41,7 @@ https://www.codaaudio.com/docs/manuals/linus-control/third_party_control.html
 ### Version 1.0.0
 This first release of the module.
 
-/*
+<!-- 
 GETDEVINFO
 LOADSNAPSHOT
 GET_ACT_SNAPSHOT
@@ -57,4 +57,5 @@ SET_FALLBACKFORCE
 SET_FALLBACKRECOVER
 SET_POWER
 CLEARGROUP
-*/
+ -->
+ 
