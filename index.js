@@ -29,18 +29,18 @@ class CodaLinus extends InstanceBase {
 			{
 				type: 'textinput',
 				id: 'host',
-				label: 'Device IP or Hostname',
+				label: 'Device IP',
 				width: 6,
 				regex: Regex.HOSTNAME,
 			},
-			{
-				type: 'textinput',
-				id: 'port',
-				label: 'Device Port',
-				width: 6,
-				default: '3000',
-				regex: Regex.PORT,
-			},
+			// {
+				// type: 'textinput',
+				// id: 'port',
+				// label: 'Device Port',
+				// width: 6,
+				// default: '3000',
+				// regex: Regex.PORT,
+			// },
 			{
 				type: 'checkbox',
 				id: 'polling',
@@ -107,7 +107,7 @@ class CodaLinus extends InstanceBase {
 	}
 
 	initUDP() {
-		this.log('debug', `initUDP ${this.config.host}:${this.config.port}`)
+		this.log('debug', `initUDP ${this.config.host}:3000`)
 
 		if (this.socket !== undefined) {
 			this.socket.destroy()
@@ -116,7 +116,7 @@ class CodaLinus extends InstanceBase {
 		}
 
 		if (this.config.host) {
-			this.socket = new UDPHelper(this.config.host, this.config.port)
+			this.socket = new UDPHelper(this.config.host, 3000)
 
 			this.socket.on('status_change', (status, message) => {
 				this.log('info', `UDP status change: ${status}`)
