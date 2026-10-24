@@ -3,7 +3,7 @@ This module will control the Coda Audio LINUS amplifiers (except for the LINUS6.
 
 [https://codaaudio.com/range/linus-dsp-amplifiers/](https://codaaudio.com/range/linus-dsp-amplifiers/)
 
-This module used the 3rd party control protocol outlined here: 
+This module uses the 3rd party control protocol outlined here: 
 
 https://www.codaaudio.com/docs/manuals/linus-control/third_party_control.html
 
